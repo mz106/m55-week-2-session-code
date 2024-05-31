@@ -54,11 +54,31 @@
 //   return num1 * num2;
 // };
 
-// console.log(lysandrasCoolMultiplication(5, 10));
+// console.log(lysandrasCoolMultiplication(10, 5));
 
-const ryansSinisterSubtraction = (num1, num2) => {
-  const sum = num1 - num2;
-  return sum;
+// const ryansSinisterSubtraction = (num1, num2) => {
+//   const sum = num1 - num2;
+//   return sum;
+// };
+
+// console.log(ryansSinisterSubtraction(2, 6));
+
+// const getFarV1 = (cel) => {
+//   return cel * (9 / 5) + 32;
+// };
+
+const getFar = (cel) => {
+  return multipyeByNineFifths(cel) + 32;
 };
 
-console.log(ryansSinisterSubtraction(6, 2));
+const multipyeByNineFifths = (cel) => {
+  return cel * (9 / 5);
+};
+
+console.log(getFar(40));
+
+function funcDecExample(par) {
+  return par;
+}
+
+funcDecExample(par);
