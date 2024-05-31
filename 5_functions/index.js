@@ -57,7 +57,8 @@
 // console.log(lysandrasCoolMultiplication(5, 10));
 
 const ryansSinisterSubtraction = (num1, num2) => {
-  return num1 - num2;
+  const sum = num1 - num2;
+  return sum;
 };
 
 console.log(ryansSinisterSubtraction(6, 2));
